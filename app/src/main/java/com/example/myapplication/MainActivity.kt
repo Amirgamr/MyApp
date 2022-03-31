@@ -15,12 +15,10 @@ class MainActivity : AppCompatActivity() {
         val startBtn = findViewById<Button>(R.id.btnStartAnotherActivity)
         startBtn.setOnClickListener {
             startActivity(Intent(this@MainActivity, StartActivity::class.java))
-            finish()
         }
         val startBton = findViewById<Button>(R.id.buttonlist)
         startBton.setOnClickListener {
             startActivity(Intent(this@MainActivity, ListActivity::class.java))
-            finish()
         }
         findViewById<SwitchCompat>(R.id.switch3).setOnClickListener {
             if ((it as SwitchCompat).isChecked) {

@@ -10,7 +10,7 @@ class ListActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_list)
         findViewById<Button>(R.id.button3).setOnClickListener {
-            startActivity(Intent(this@ListActivity, gunactivity::class.java))
+            startActivity(Intent(this@ListActivity, GunActivity::class.java))
         }
     }
 }

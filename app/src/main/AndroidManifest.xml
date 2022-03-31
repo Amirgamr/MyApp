@@ -29,7 +29,7 @@
             android:name=".ListActivity"
             android:exported="true" />
         <activity
-            android:name=".gunactivity"
+            android:name=".GunActivity"
             android:exported="true" />
         <activity
             android:name=".m13activity"
